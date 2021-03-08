@@ -1,0 +1,38 @@
+/*This file contains css formats that apply to each product's product details
+  page'*/
+
+
+/*The "Add to Cart" button"*/
+a.addToCart:link, a.addToCart:visited {
+    background-color: #006633;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    max-width: 200px;
+}
+
+a.addToCart:hover, a.addToCart:active {
+    background-color: #007c3e;
+}
+
+
+/*A table to display various product images*/
+table{
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%
+}
+
+tr {
+    text-align: center;
+    max-height: 200px;
+}
+
+td {
+    max-width: 200px;
+}
+
+div {
+     max-width: 700px;
+}

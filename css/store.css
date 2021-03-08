@@ -1,0 +1,25 @@
+/*This file contains css formats that apply to the store page*/
+
+
+/*Defines the look of the table on the store page*/
+table{
+    width: 96%;
+    margin-left: 4%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr {
+    text-align: center;
+    max-height: 200px;
+}
+
+/*Expands images when the mouse is placed over them*/
+img:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}   

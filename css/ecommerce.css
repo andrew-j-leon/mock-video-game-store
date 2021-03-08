@@ -1,0 +1,65 @@
+/*This file contains css formats that apply to the entire website*/
+
+a.back {
+    font-size: 20px;
+    color: #000028;
+    margin-bottom: 20px;
+}
+
+a.back:hover {
+	color: #000082;
+}
+
+/* Determines the style of the header links */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #cccccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+a.active {
+    background-color: #006633;
+    color: #cccccc;
+}
+
+            
+/* Background Color */
+
+body {
+    background-color: #006699;
+}
+
+/*Div blocks will all have a max-width of 700px. This makes
+  reading easier as words aren't spread across the whole width
+  of the page.'*/
+
+div {
+     max-width: 700px;
+}
+
+/*How images in tables will be displayed*/
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
